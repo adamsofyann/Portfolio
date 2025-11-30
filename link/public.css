@@ -1,0 +1,66 @@
+.profile-pic {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+}
+
+.skill-icon {
+    font-size: 3rem;
+    color: #0d6efd;
+}
+
+.card-deck .card {
+    height: 100%;
+}
+
+/* Style untuk timeline edukasi */
+.timeline-item {
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: #0d6efd;
+    border-radius: 50%;
+    left: -24px;
+    /* Sesuaikan agar pas dengan border */
+    top: 5px;
+}
+
+/* Style untuk timeline pengalaman */
+.timeline-success .timeline-item::before {
+    background-color: #198754;
+    /* Warna hijau success */
+}
+
+
+
+
+#sss {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+#back {
+    background-color: #f2f3f4;
+
+}
+
+.ss {
+    font-family: sans-serif;
+    color: #333333;
+}
+
+#ss {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    color: #333333;
+}
+
+
