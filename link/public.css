@@ -16,7 +16,6 @@
     height: 100%;
 }
 
-/* Style untuk timeline edukasi */
 .timeline-item {
     position: relative;
 }
@@ -28,17 +27,13 @@
     height: 12px;
     background-color: #0d6efd;
     border-radius: 50%;
-    left: -24px;
-    /* Sesuaikan agar pas dengan border */
+    left: -10px;
     top: 5px;
 }
 
-/* Style untuk timeline pengalaman */
 .timeline-success .timeline-item::before {
     background-color: #198754;
-    /* Warna hijau success */
 }
-
 
 
 
@@ -61,6 +56,15 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 35px;
     color: #333333;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }
 
 
