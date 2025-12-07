@@ -24,11 +24,11 @@
 .timeline-item::before {
     content: '';
     position: absolute;
-    width: 12px;
-    height: 12px;
+    width: 5px;
+    height: 5px;
     background-color: #0d6efd;
     border-radius: 50%;
-    left: -15px;
+    left: -10px;
     top: 5px;
 }
 
