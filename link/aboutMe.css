@@ -1,13 +1,12 @@
-/* ini link css dari aboutMe */
 
-/* Kontainer luar untuk 3D */
+
+/* Kontainer  3D */
 .flip-card {
     background-color: transparent;
     width: 100%;
     height: 250px;
-    /* Atur tinggi kartu di sini */
     perspective: 1000px;
-    /* Efek 3D */
+    
 }
 
 /* Kontainer dalam yang akan berputar */

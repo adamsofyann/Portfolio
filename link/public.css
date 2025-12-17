@@ -6,6 +6,7 @@
 .profile-pic:hover {
     transform: scale(1.05);
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
+    
 }
 
 .skill-icon {
@@ -67,5 +68,7 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
+
 
 
